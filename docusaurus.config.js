@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'jmandude2978.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Welcome to my website',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
