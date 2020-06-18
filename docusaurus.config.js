@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Charmhigh PnP Review Website',
+  tagline: 'A collection of independent reviews',
   url: 'https://jmandude2978.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'jmandude2978.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Welcome to my website',
+      title: 'Home',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
