@@ -11,13 +11,13 @@ module.exports = {
       title: 'Home',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo2.png',
       },
       links: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Reviews',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
@@ -32,7 +32,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Reviews',
           items: [
             {
               label: 'Style Guide',
@@ -75,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+     // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -84,6 +84,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
+          //routeBasePath: '/',
           homePageId: 'doc1',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.

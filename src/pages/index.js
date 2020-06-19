@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Hard to Use</>,
+    imageUrl: 'img/confused.jpg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Instructions written in <code>Chinglish</code>
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Horrible Customer Service</>,
+    imageUrl: 'img/mad.jpg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      Fake "One Year + Lifetime Service" warranty
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Questionable Buisness Practices</>,
+    imageUrl: 'img/test.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+         Blatantly copying, Lies, Deception, ip theft and more!
       </>
     ),
   },
@@ -65,6 +62,14 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className= "p">
+            <div class="alert alert--danger" role="alert">
+                <button aria-label="Close" class="close" type="button">
+                <span aria-hidden="true"></span>
+               </button>
+              <strong>Warning!</strong> read before you buy!
+            </div>
+       </div>
           <div className={styles.buttons}>
             <Link
               className={classnames(
@@ -72,7 +77,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              Start Reading
             </Link>
           </div>
         </div>
