@@ -21,7 +21,8 @@ const features = [
     imageUrl: 'img/mad.jpg',
     description: (
       <>
-      Fake "One Year + Lifetime Service" warranty
+      Fake "One Year + Lifetime Service" warranty.
+      Their customer representatives don't have any <code>CHARM</code> and are probably <code>HIGH</code>
       </>
     ),
   },
